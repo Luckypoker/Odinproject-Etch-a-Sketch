@@ -1,4 +1,22 @@
-.box {
+* {list-style: none;
+}
+.container {
+
+}
+.content {
+    margin: auto;
+}
+.display {
+    display: grid;
+    text-align: center;
+}
+.box1 {
+    display: grid;
+    align-items: center;
     border-style: double;
     border-color: black;
+    padding: 40px;
+    transition: all 0.07;
+}
+.playing {
 }
